@@ -1,6 +1,7 @@
 'use client'
 
-import { Button } from "@nextui-org/react";
+import WelcomeButton from "@/app/components/WelcomeButton";
+// import { Button } from "@nextui-org/react";
 import React from "react";
 
 const WelcomePage = () => {
@@ -12,7 +13,7 @@ const WelcomePage = () => {
         click to see anything and everything
       </p>
       <div className="flex justify-center">
-        <Button color="primary" variant="shadow" onClick={()=>console.log('I was clicked')}>Button</Button>
+        <WelcomeButton/>
       </div>
     </>
   );

@@ -80,3 +80,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
         - Client components cannot have child server components. Whenever you call a component inside of a client component, it will become a client component, because like their parent, it will be rendered on the client
         - Client components can only have client children
 
+---------------------------------------------------------------------------------------------
+
+### Day 3
+    + Server Side Rendering
+        - Server components can be async, and can fetch data
+    
